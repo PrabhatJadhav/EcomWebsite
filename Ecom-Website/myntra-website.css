@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.navbar{
+    background-color: white;
+    box-shadow:0 0 3rem black;
+}
+.nav-logo img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.nav-item a{
+    color: black;
+}
+.srch-icon img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+}
+.srch-ip{
+    width: 18rem;
+    padding: 0.4rem 0 0.5rem 0.3rem;
+    outline: 0;
+    border: 0;
+}
+.input-group{
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 22rem;
+    border: 0.1rem solid black;
+    border-radius: 1.3rem;
+}
+input:focus{
+    border: 0;
+}
+.icon-nm{
+    color: black;
+}
+.icon-img{
+    justify-content: center;
+}
+.icon-img img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.banner{
+    padding: 3rem;
+    padding: 0 3rem 0 3rem;   
+}
+.bg-blamond{
+    background-color: blanchedalmond;
+}
+.bg-sal{
+    background-color: salmon;
+}
+.c-wt{
+    color: whitesmoke;
+}
+@media (max-width:768px)
+{
+    .banner-main{
+        flex-direction: column;
+    }
+}
