@@ -58,7 +58,10 @@ input:focus{
 .c-wt{
     color: whitesmoke;
 }
-@media (max-width:768px)
+.blk-bdr{
+    border: 1px solid black;
+}
+@media (max-width:766px)
 {
     .banner-main{
         flex-direction: column;
